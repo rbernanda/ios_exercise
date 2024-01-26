@@ -1,0 +1,15 @@
+target 'PromoApp' do
+  use_frameworks!
+
+  # Pods for PromoApp
+
+  target 'PromoAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PromoAppUITests' do
+    # Pods for testing
+  end
+
+end
