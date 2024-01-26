@@ -1,0 +1,20 @@
+platform :ios, '16.0'
+
+target 'PortofolioChart' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PortofolioChart
+  pod 'DGCharts'
+  pod 'TinyConstraints'
+
+  target 'PortofolioChartTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PortofolioChartUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,22 @@
+PODS:
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - DGCharts
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 100eb7fdbb669ffc8584b060fe39eff735216d9c
+
+COCOAPODS: 1.14.3
