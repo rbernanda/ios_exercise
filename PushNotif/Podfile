@@ -1,0 +1,20 @@
+platform :ios, '16.0'
+
+target 'PushNotif' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PushNotif
+  pod 'FirebaseMessaging'
+  pod 'FirebaseAnalytics'
+
+  target 'PushNotifTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PushNotifUITests' do
+    # Pods for testing
+  end
+
+end
